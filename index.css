@@ -2,13 +2,20 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #404147;
+    color: #F2F1EF;
+}
 
 
 .header {
-    border: 1px solid black;
-    background-color: darkgray;
+    border: 3px solid black;
     text-align: center;
-    position: relative;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #404147;
+
 }
 
 .logo {
@@ -38,42 +45,53 @@ li {
 .main {
     display: block;
     text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 100px;
+    padding-bottom: 15px;
 }
 
 #aboutMe {
-    margin: auto;
-    height: 100px;
-    border: 1px black solid;
-    background-color: lightgray;
-    line-height: 100px;
+    margin: 25px auto;
+    word-wrap: break-word;
+    width: 60%;
+    text-align: left;
 }
 
 #aboutMe p {
-    margin: 0;
+    margin: 10px;
 }
 
 #portfolio {
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px black solid;
-    background-color: darkgray;
+    margin: 25px auto;
 }
 
 .project {
-    border: 1px black solid;
+    margin-left: 15%;
+    margin-right: 15%
 }
 
-input[type="image"]{
-    margin-top: 20px;
-    margin-bottom: 20px;
+.image {
+    width: 100%;
+    border-radius: 20px;
 }
 
 .footer {
-    border: 1px black solid;
-    background-color: lightgray;
     text-align: center;
     position: relative;
+    padding-top: 20px;
+    border-top: 3px solid black;
     bottom: 0;
+}
+
+/*Links pseudo classes */
+
+a:link{
+    color: #bfefff;
+}
+
+a:visited {
+    color: #D8BFD8;
 }
 
 
