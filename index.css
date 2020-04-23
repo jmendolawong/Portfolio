@@ -16,6 +16,7 @@ body {
     width: 100%;
     background: #282c34;
     opacity: 1;
+    color: lightsteelblue;
 }
 
 h1 {
@@ -80,7 +81,9 @@ li {
     bottom: 0;
 }
 
-
+a {
+  color: lightsteelblue;
+}
 
 @media screen and (min-width: 768px){
     .header {
