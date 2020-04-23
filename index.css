@@ -67,6 +67,11 @@ li {
     border-radius: 20px;
 }
 
+.icon {
+  width: 45px;
+  height: 45px;
+}
+
 .footer {
     text-align: center;
     position: relative;
@@ -84,6 +89,8 @@ a:link{
 a:visited {
     color: #D8BFD8;
 }
+
+
 
 
 @media screen and (min-width: 768px){
