@@ -4,7 +4,7 @@
 
 body {
     background-color: #40414728;
-    color: #F2F1EF;
+    color: black;
 }
 
 
@@ -80,17 +80,6 @@ li {
     bottom: 0;
 }
 
-/*Links pseudo classes */
-
-a:link{
-    color: #bfefff;
-}
-
-a:visited {
-    color: #D8BFD8;
-}
-
-
 
 
 @media screen and (min-width: 768px){
@@ -112,13 +101,13 @@ a:visited {
         padding-top: 15px;
     }
 
-    .icon {
+    .contact-icons li {
       transition-property: top;
       transition-duration: 2s;
       transition-timing-function: linear;
     }
 
-    .icon:hover:enabled {
+    .contact-icons:hover:enabled {
       position: relative;
       top: -4px;
     }
