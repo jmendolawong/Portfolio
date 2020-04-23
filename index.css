@@ -42,6 +42,10 @@ li {
     margin: 0 15px;
 }
 
+h2, h3 {
+  text-align: center;
+}
+
 .main {
     display: block;
     text-align: center;
@@ -96,7 +100,6 @@ a {
 
 @media screen and (min-width: 768px){
     .header {
-        text-align: left;
         padding-left: 25px;
         margin-left: 0;
     }
