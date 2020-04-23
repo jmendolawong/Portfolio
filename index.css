@@ -16,7 +16,10 @@ body {
     width: 100%;
     background: #282c34;
     opacity: 1;
-    color: lightsteelblue;
+}
+
+.header-name {
+  color: lightsteelblue;
 }
 
 h1 {
@@ -48,6 +51,7 @@ li {
     word-wrap: break-word;
     width: 60%;
     text-align: left;
+    padding-top: 50px;
 }
 
 #aboutMe p {
@@ -56,11 +60,12 @@ li {
 
 #portfolio {
     margin: 25px auto;
+    padding-top: 25px;
 }
 
 .project {
     margin-left: 15%;
-    margin-right: 15%
+    margin-right: 15%;
 }
 
 .image {
@@ -82,7 +87,6 @@ li {
 }
 
 a {
-  color: lightsteelblue;
 }
 
 @media screen and (min-width: 768px){
