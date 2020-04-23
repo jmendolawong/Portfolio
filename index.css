@@ -112,4 +112,23 @@ a:visited {
         padding-top: 15px;
     }
 
+    .icon {
+      transition-property: top;
+      transition-duration: 2s;
+      transition-timing-function: linear;
+    }
+
+    .icon:hover:enabled {
+      position: relative;
+      top: -4px;
+    }
+
+    a:link {
+      text-decoration: none;
+    }
+
+    a:hover { 
+      text-decoration: underline;
+    }
+
 }
