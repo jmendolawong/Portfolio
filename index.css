@@ -20,6 +20,7 @@ body {
 
 .header-name {
   color: lightsteelblue;
+  font-size: 28px;
 }
 
 .header-filler {
@@ -44,8 +45,8 @@ li {
 .main {
     display: block;
     text-align: center;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 25px;
+    margin-right: 25px;
     padding-top: 100px;
     padding-bottom: 15px;
 }
@@ -103,6 +104,7 @@ a {
     .header-name {
         display: inline-block;
         left: 25px;
+        font-size: 32px;
     }
 
     .menu {
