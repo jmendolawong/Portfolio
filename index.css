@@ -3,18 +3,18 @@
 }
 
 body {
-    background-color: #404147;
+    background-color: #40414728;
     color: #F2F1EF;
 }
 
 
 .header {
-    border: 3px solid black;
+    border-bottom: 3px solid black;
     text-align: center;
     position: fixed;
     top: 0;
     width: 100%;
-    background: #404147;
+    background: #40414728;
 
 }
 
